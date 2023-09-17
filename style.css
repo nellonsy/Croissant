@@ -1,29 +1,31 @@
-:root{
-    --bg-color: #FFCACC;
-    
-}
-
-h1, p {
+body {
+    background: #f8e8a6;
+  }
+  
+  h1, h2, h3,
+  p {
     text-align: center;
-}
-
-p{
-    background-color: var(--bg-color);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px ;
-}
-
-img{
+  }
+  
+  .croissant-photo {
+    max-width: 100%;
+    border-radius: 10px;
     display: block;
-    margin: auto;
-    padding: auto;
-    border: 1px solid;
-    border-radius: 5px;
-}
-
-
-footer{
+    margin: 30px auto;
+  }
+  
+  .link, footer {
     text-align: center;
-    
-}
+  }
+  .link{ 
+    color: orangered;
+  }
+  .link:hover{
+    color: red;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    color: green;
+  }
+  
