@@ -13,4 +13,12 @@ p{
     padding: 10px;
 }
 
+img{
+    display: block;
+    margin: auto;
+    padding: auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
 
