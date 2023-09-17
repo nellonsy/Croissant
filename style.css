@@ -1,3 +1,16 @@
-h1{
+:root{
+    --bg-color: #FFCACC;
+    --primary-color: #DBC4F0;
+}
+
+h1, p {
     text-align: center;
 }
+
+p{
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
