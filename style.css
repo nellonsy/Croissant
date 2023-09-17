@@ -1,6 +1,6 @@
 :root{
     --bg-color: #FFCACC;
-    --primary-color: #DBC4F0;
+    
 }
 
 h1, p {
@@ -11,6 +11,7 @@ p{
     background-color: var(--bg-color);
     border-radius: 5px;
     padding: 10px;
+    margin: 10px ;
 }
 
 img{
@@ -22,3 +23,7 @@ img{
 }
 
 
+footer{
+    text-align: center;
+    
+}
